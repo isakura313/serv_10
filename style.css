@@ -179,6 +179,7 @@ ul:after{
 .cards{
     display: flex;
     flex-direction: column;
+    align-items: center;
 }
 .card_row{
    display: flex; 
@@ -200,6 +201,11 @@ ul:after{
     background-repeat: no-repeat;
     background-position: center center;
 }
+.card__icon img{
+    width: 200px;
+    height: 200px;
+
+}
 .card__h5{
     color: var(--dcb);
     font-size: 16px;
@@ -218,25 +224,7 @@ ul:after{
     margin-bottom: 20px;
 }
 
-.card__icon__moscow{
-    background-image: url('img/moscow.png');
-}
-.card__icon__london{
-    background-image: url('img/big-ben.png');
-    
-}
-.card__icon__africa{
-    background-image: url('img/pyramids.png'); 
-}
-.card__icon__na{
-    background-image: url('img/north-america.png'); 
-}
-.card__icon__sa{
-    background-image: url('img/south-america.png'); 
-}
-.card__icon__australia{
-    background-image: url('img/kangaroo.png');
-}
+
 
 
 .footer{
