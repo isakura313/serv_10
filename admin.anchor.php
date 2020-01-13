@@ -4,8 +4,10 @@
 <link rel="stylesheet" href="bulma.css">
 <body>
 <?php
-// require($_SERVER["DOCUMENT_ROOT"] . "/serv_10/includes/nav.inc.php");
+require($_SERVER["DOCUMENT_ROOT"] .'/serv_10/admin/admin_nav.inc.php');
+
 ?>
+
  <section class="has-background-success columns">
    
             <div class="container has-text-centered">
@@ -13,11 +15,12 @@
                     <h3 class="title has-text-black"> Anchor</h3>
                     <hr class="login-hr">
                     <p class="subtitle has-text-black">Введите новые ccылочки</p>
+                    <p class="subtitle has-text-black"> Удаляем по Id</p>
                     <div class="box">
                         <figure class="avatar">
                             <img src="img/lighthouse.png">
                         </figure>
-                        <form action="includes/form_anc.inc.php" method=GET>
+                        <form action="admin/form_anc.inc.php" method=GET>
 
                 <div class="control">
                 <label class="radio">

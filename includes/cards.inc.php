@@ -1,6 +1,6 @@
 <?php
 
-require($_SERVER["DOCUMENT_ROOT"] .'/serv_10/includes/connect.inc.php');
+require($_SERVER["DOCUMENT_ROOT"] .'/serv_10/config/connect.inc.php');
 
 // $cards_p;
 // 2, 5, 8, 11, 

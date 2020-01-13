@@ -5,7 +5,8 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css">
 <body>
 <?php
-// require($_SERVER["DOCUMENT_ROOT"] . "/serv_10/includes/nav.inc.php");
+require($_SERVER["DOCUMENT_ROOT"] .'/serv_10/admin/admin_nav.inc.php');
+
 ?>
  <section class="has-background-success columns">
    
@@ -18,7 +19,7 @@
                         <figure class="avatar">
                             <img src="img/kangaroo.png">
                         </figure>
-                        <form action="includes/form.inc.php" method="POST" enctype="multipart/form-data">
+                        <form action="admin/form.inc.php" method="POST" enctype="multipart/form-data">
                         <div class="control">
                             <label class="radio">
                              <input type="radio" name="answer" value="ins">

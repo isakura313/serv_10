@@ -1,6 +1,10 @@
 
 <link rel="stylesheet" href="bulma.css">
 <body>
+<?php
+require($_SERVER["DOCUMENT_ROOT"] .'/serv_10/admin/admin_nav.inc.php');
+
+?>
 <section class="has-background-success columns">
    
             <div class="container has-text-centered">
